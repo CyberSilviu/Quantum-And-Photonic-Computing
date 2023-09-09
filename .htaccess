@@ -1,0 +1,48 @@
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/index.html
+# to https://silviuandrei.com/quantum-photonic-computing/index
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/introducere.html
+# to https://silviuandrei.com/quantum-photonic-computing/introducere
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/bazele-teoretice.html
+# to https://silviuandrei.com/quantum-photonic-computing/bazele-teoretice
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/comparatie.html
+# to https://silviuandrei.com/quantum-photonic-computing/comparatie
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/aplicatii-actuale-si-potentiale.html
+# to https://silviuandrei.com/quantum-photonic-computing/aplicatii-actuale-si-potentiale
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/provocari-si-limitari.html
+# to https://silviuandrei.com/quantum-photonic-computing/provocari-si-limitari
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://silviuandrei.com/quantum-photonic-computing/viitorul.html
+# to https://silviuandrei.com/quantum-photonic-computing/viitorul
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
